@@ -1,0 +1,27 @@
+@media (max-width:575.98px){
+  .navbar{
+      text-align: center;
+  }
+    .h2{
+       font-size: 25px;
+       font-weight: 500;
+      
+   } 
+   .menu{
+       font-weight: 600;
+       font-size: 30px;
+       color: black;
+       display: flex;
+       gap: 30px;
+   }
+   .header{
+     width: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title{
+  position: absolute;
+  bottom: 5px;
+}
+}

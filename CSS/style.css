@@ -1,0 +1,257 @@
+ul li{
+    font-size: 14px;
+}
+.header{
+    background-image: url(../images/photo-1443527216320-7e744084f5a7-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#title{
+    display: flex;
+    text-align: center;
+    padding-top: 400px;
+    color: white;;
+}
+ul li {
+    list-style: none;
+    cursor: pointer;
+    color: gray;
+}
+ul li:hover{
+    color: black;
+    gap: 30px 15px;
+}
+ul{
+    display: flex;
+    gap:  15px;
+}
+
+.text{
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:  #563fda;
+    }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar{
+    background-color: white;
+    height: 8vh;
+}
+
+.butons-area button{
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.read{
+ background-color: #745CF9;
+ color: white;
+}
+.read:hover{
+    background-color: #563fda;
+    opacity: .8;
+}
+.download{
+    border: 1px solid white!important;
+    color: white;
+}
+.download:hover{
+ background-color: white!important;
+ color: black;
+}
+.image-area{
+    width: 600px;
+}
+.seo{
+    height: 70vh;
+}
+.second{
+    width: 180px;
+    height: 50px;
+    border: none;
+}
+.second:hover{
+    background-color: #563fda;
+}
+.portfolio{
+    height: 60vh;
+    background-color: #F5F5F5;
+}
+.parallax{
+    height: 40vh;
+    background-image: url(../images/photo-1452723312111-3a7d0db0e024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.items{
+    text-align: center;
+    color: white;
+}
+.items .h2{
+    font-size:50px;
+    font-weight: 300;
+}
+.limitless{
+    height: 120vh;
+    text-align: center;
+}
+.limitless .limit{
+    color: gray;
+}
+.img-nature{
+    height: 101vh;
+}
+.latest-projects{
+    height: 170vh;
+    background-color: #0E1015;
+}
+.black-area{
+    height: 20vh;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.images{
+    
+    height: 300px;
+    text-align: center;
+    color: wheat;
+}
+
+.latest-projects .h2{
+    visibility: hidden;
+    color: white;
+    font-weight: 200;
+    margin-top: 30%;
+}
+.image-1:hover .h2{
+ visibility: visible;
+}
+.image-2:hover .h2{
+    visibility: visible;
+   }
+.image-3:hover .h2{
+    visibility: visible;
+}
+.image-4:hover .h2{
+    visibility: visible;
+}
+
+.image-1{
+    background-image: url(../images/photo-1443890484047-5eaa67d1d630-1.jpg), linear-gradient(#eb720111, #db87382c);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-2{
+    background-image: url(../images/photo-1422568374078-27d3842ba676-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-3{
+    background-image: url(../images/photo-1447834353189-91c48abf20e1-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-4{
+    background-image:url(../images/photo-1447877085163-3cce903855cd-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.image-areas{
+    flex-flow: column wrap;
+    gap: 20vh 0px;
+}
+.customers{
+    padding-top: 20px;
+    height: 35vh;
+    background-image: url(../images/photo-1451417379553-15d8e8f49cde.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+}
+.john{
+    border-radius: 50%;
+    width: 100px;
+}
+.footer{
+    height: 80vh;
+}
+.main-clients{
+    height:30vh ;
+    text-align: center;
+    margin-top: 50px;
+}
+.logos-area img{
+    width: 60px;
+    opacity: .6;
+    margin: 0px 100px;
+}
+.logos-area img:hover{
+ opacity: 1;
+}
+
+.like{
+    height: 30vh;
+    background-color: #F5F5F5;
+    padding: 80px;
+}
+.like .endbutton{
+    margin: 0px 100px;
+}
+.endside{
+    height: 20vh;
+    background-color: #0E1015;
+    color: white;
+}
+.endside span:hover{
+   color: #563fda;
+}
+.icons-area{
+    position: absolute;
+    right: 20%;
+}
+.icons-area i{
+    padding: 0px 10px;
+}
+.icons-area i:hover{
+color: #563fda;
+}
